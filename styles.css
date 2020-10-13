@@ -1,0 +1,49 @@
+body {
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+#contenido {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tarjeta {
+    width: 30%;
+    margin: 10px auto;
+    padding: auto;
+}
+
+.tarjeta img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.avenger-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.avenger-img:hover .texto {
+    top: 0;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: hsla(0, 0%, 20%, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 20px;
+}
